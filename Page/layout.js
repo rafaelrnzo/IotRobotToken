@@ -18,7 +18,7 @@ init({
 });
 
 const options = {
-  host: '104.248.156.51',
+  host: 'xxx.xxx.xxx.xx',
   port: 9001,
   path: 'token',
   id: 'id_' + parseInt(Math.random() * 100000)
@@ -34,8 +34,8 @@ class layout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username_mqtt: 'ali',
-      password_mqtt: '1234',
+      username_mqtt: 'xxx',
+      password_mqtt: 'xxxx',
       message: '',
       messageList: [],
       status: '',
